@@ -8,6 +8,9 @@ class User(BaseModel):
     username: str
     tier: str = "free"
     created_at: datetime
+    payment_method: Optional[str] = None
+    payment_status: Optional[str] = None
+    last_payment_date: Optional[datetime] = None
 
 class Payment(BaseModel):
     id: int
