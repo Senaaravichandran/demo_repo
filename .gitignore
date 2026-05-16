@@ -1,0 +1,21 @@
+
+---
+
+### `.gitignore`
+
+```gitignore id="f8"
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+.venv
+*.db
+*.sqlite
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
